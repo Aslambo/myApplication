@@ -5,9 +5,6 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
 *.iws
 *.iml
 *.ipr
