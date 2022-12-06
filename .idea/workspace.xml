@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="866d941d-94ef-4d3a-b8f6-df6b20a9e075" name="Changes" comment="A DataBase task using MVC">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="866d941d-94ef-4d3a-b8f6-df6b20a9e075" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +132,7 @@
       <updated>1669913193986</updated>
       <workItem from="1669913195392" duration="9454000" />
       <workItem from="1670331044738" duration="6402000" />
-      <workItem from="1670337558932" duration="14325000" />
+      <workItem from="1670337558932" duration="14649000" />
     </task>
     <task id="LOCAL-00001" summary="A DataBase task using MVC">
       <created>1670360904072</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670360904072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update gitignore">
+      <created>1670361515173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670361515173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A DataBase task using MVC" />
-    <option name="LAST_COMMIT_MESSAGE" value="A DataBase task using MVC" />
+    <MESSAGE value="Update gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update gitignore" />
   </component>
 </project>
