@@ -3,12 +3,7 @@ package jm.task.core.jdbc;
 import jm.task.core.jdbc.dao.UserDao;
 import jm.task.core.jdbc.dao.UserDaoJDBCImpl;
 import jm.task.core.jdbc.util.Util;
-
-import java.sql.Connection;
 import java.sql.SQLException;
-import java.sql.Statement;
-
-import static jm.task.core.jdbc.util.Util.getConnection;
 
 public class Main {
     public static void main(String[] args) throws SQLException {
@@ -25,5 +20,6 @@ public class Main {
         userDao.getAllUsers();
         userDao.cleanUsersTable();
         userDao.dropUsersTable();
+        Util.getConnection().close();
     }
 }
