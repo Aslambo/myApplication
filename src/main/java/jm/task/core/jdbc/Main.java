@@ -2,6 +2,7 @@ package jm.task.core.jdbc;
 
 import jm.task.core.jdbc.dao.UserDao;
 import jm.task.core.jdbc.dao.UserDaoHibernateImpl;
+
 import java.sql.SQLException;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
 
         userDao.removeUserById(1);
         userDao.getAllUsers();
-        userDao.cleanUsersTable();userDao.dropUsersTable();
+        userDao.cleanUsersTable();
+        userDao.dropUsersTable();
     }
 }

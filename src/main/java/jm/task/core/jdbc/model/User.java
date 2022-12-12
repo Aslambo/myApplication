@@ -12,7 +12,7 @@ import java.util.Objects;
 @Table
 public class User {
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column
@@ -28,7 +28,7 @@ public class User {
 
     }
 
-    public User (String name, String lastName, Byte age) {
+    public User(String name, String lastName, Byte age) {
         this.name = name;
         this.lastName = lastName;
         this.age = age;
@@ -75,6 +75,7 @@ public class User {
                 ", age=" + age +
                 '}';
     }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -87,6 +88,7 @@ public class User {
         if (!Objects.equals(lastName, user.lastName)) return false;
         return Objects.equals(age, user.age);
     }
+
     @Override
     public int hashCode() {
         int result = id != null ? id.hashCode() : 0;
